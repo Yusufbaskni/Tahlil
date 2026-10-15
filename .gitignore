@@ -1,0 +1,9 @@
+.build/
+build/
+dist/
+.DS_Store
+DerivedData/
+*.xcuserstate
+.env
+.env.*
+!.env.example

@@ -1,0 +1,62 @@
+{
+  "id": "compact4",
+  "name": "4 parametre",
+  "brand": "Yaklaşık referans",
+  "detail": "Sap üstteyken sıra: Glikoz, Protein, pH, Keton. Renkler yaklaşık referanstır.",
+  "readWaitSeconds": 60,
+  "analytes": [
+    {
+      "id": "glu",
+      "name": "Glikoz",
+      "abbreviation": "GLU",
+      "levels": [
+        { "valueText": "Negatif", "r": 158, "g": 206, "b": 196, "isTypical": true },
+        { "valueText": "50 mg/dL", "r": 176, "g": 204, "b": 140, "isTypical": false },
+        { "valueText": "100 mg/dL", "r": 150, "g": 186, "b": 92, "isTypical": false },
+        { "valueText": "250 mg/dL", "r": 124, "g": 146, "b": 58, "isTypical": false },
+        { "valueText": "500 mg/dL", "r": 96, "g": 108, "b": 42, "isTypical": false },
+        { "valueText": "1000 mg/dL", "r": 78, "g": 70, "b": 36, "isTypical": false }
+      ]
+    },
+    {
+      "id": "pro",
+      "name": "Protein",
+      "abbreviation": "PRO",
+      "levels": [
+        { "valueText": "Negatif", "r": 236, "g": 214, "b": 96, "isTypical": true },
+        { "valueText": "Eser", "r": 206, "g": 206, "b": 90, "isTypical": true },
+        { "valueText": "30 mg/dL", "r": 150, "g": 186, "b": 96, "isTypical": false },
+        { "valueText": "100 mg/dL", "r": 72, "g": 156, "b": 112, "isTypical": false },
+        { "valueText": "300 mg/dL", "r": 36, "g": 124, "b": 124, "isTypical": false },
+        { "valueText": "2000 mg/dL", "r": 20, "g": 86, "b": 108, "isTypical": false }
+      ]
+    },
+    {
+      "id": "ph",
+      "name": "pH",
+      "abbreviation": "pH",
+      "levels": [
+        { "valueText": "5.0", "r": 232, "g": 136, "b": 48, "isTypical": true },
+        { "valueText": "6.0", "r": 236, "g": 180, "b": 56, "isTypical": true },
+        { "valueText": "6.5", "r": 214, "g": 190, "b": 64, "isTypical": true },
+        { "valueText": "7.0", "r": 170, "g": 186, "b": 78, "isTypical": true },
+        { "valueText": "7.5", "r": 110, "g": 176, "b": 96, "isTypical": true },
+        { "valueText": "8.0", "r": 64, "g": 158, "b": 118, "isTypical": true },
+        { "valueText": "8.5", "r": 46, "g": 118, "b": 138, "isTypical": false },
+        { "valueText": "9.0", "r": 36, "g": 82, "b": 138, "isTypical": false }
+      ]
+    },
+    {
+      "id": "ket",
+      "name": "Keton",
+      "abbreviation": "KET",
+      "levels": [
+        { "valueText": "Negatif", "r": 240, "g": 206, "b": 156, "isTypical": true },
+        { "valueText": "5 mg/dL", "r": 236, "g": 170, "b": 148, "isTypical": true },
+        { "valueText": "15 mg/dL", "r": 214, "g": 112, "b": 136, "isTypical": false },
+        { "valueText": "40 mg/dL", "r": 168, "g": 70, "b": 114, "isTypical": false },
+        { "valueText": "80 mg/dL", "r": 112, "g": 48, "b": 92, "isTypical": false }
+      ]
+    }
+  ]
+}

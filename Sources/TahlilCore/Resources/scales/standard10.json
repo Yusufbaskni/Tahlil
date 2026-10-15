@@ -1,0 +1,133 @@
+{
+  "id": "standard10",
+  "name": "10 parametre",
+  "brand": "Yaklaşık referans",
+  "detail": "Sap üstteyken sıra, yaygın 10’lu idrar çubuğu düzenine göredir. Renkler yaklaşık referanstır; marka kartının yerine geçmez. Application Support/Tahlil/scales altına kendi marka JSON’unuzu koyarak değiştirebilirsiniz.",
+  "readWaitSeconds": 60,
+  "analytes": [
+    {
+      "id": "glu",
+      "name": "Glikoz",
+      "abbreviation": "GLU",
+      "levels": [
+        { "valueText": "Negatif", "r": 158, "g": 206, "b": 196, "isTypical": true },
+        { "valueText": "50 mg/dL", "r": 176, "g": 204, "b": 140, "isTypical": false },
+        { "valueText": "100 mg/dL", "r": 150, "g": 186, "b": 92, "isTypical": false },
+        { "valueText": "250 mg/dL", "r": 124, "g": 146, "b": 58, "isTypical": false },
+        { "valueText": "500 mg/dL", "r": 96, "g": 108, "b": 42, "isTypical": false },
+        { "valueText": "1000 mg/dL", "r": 78, "g": 70, "b": 36, "isTypical": false }
+      ]
+    },
+    {
+      "id": "bil",
+      "name": "Bilirubin",
+      "abbreviation": "BIL",
+      "levels": [
+        { "valueText": "Negatif", "r": 246, "g": 224, "b": 170, "isTypical": true },
+        { "valueText": "+", "r": 228, "g": 176, "b": 146, "isTypical": false },
+        { "valueText": "++", "r": 196, "g": 114, "b": 124, "isTypical": false },
+        { "valueText": "+++", "r": 150, "g": 72, "b": 102, "isTypical": false }
+      ]
+    },
+    {
+      "id": "ket",
+      "name": "Keton",
+      "abbreviation": "KET",
+      "levels": [
+        { "valueText": "Negatif", "r": 240, "g": 206, "b": 156, "isTypical": true },
+        { "valueText": "5 mg/dL", "r": 236, "g": 170, "b": 148, "isTypical": true },
+        { "valueText": "15 mg/dL", "r": 214, "g": 112, "b": 136, "isTypical": false },
+        { "valueText": "40 mg/dL", "r": 168, "g": 70, "b": 114, "isTypical": false },
+        { "valueText": "80 mg/dL", "r": 112, "g": 48, "b": 92, "isTypical": false }
+      ]
+    },
+    {
+      "id": "sg",
+      "name": "Dansite",
+      "abbreviation": "SG",
+      "levels": [
+        { "valueText": "1.000", "r": 42, "g": 96, "b": 118, "isTypical": false },
+        { "valueText": "1.005", "r": 52, "g": 128, "b": 122, "isTypical": true },
+        { "valueText": "1.010", "r": 64, "g": 156, "b": 114, "isTypical": true },
+        { "valueText": "1.015", "r": 104, "g": 176, "b": 92, "isTypical": true },
+        { "valueText": "1.020", "r": 156, "g": 184, "b": 74, "isTypical": true },
+        { "valueText": "1.025", "r": 196, "g": 186, "b": 64, "isTypical": true },
+        { "valueText": "1.030", "r": 214, "g": 176, "b": 56, "isTypical": true }
+      ]
+    },
+    {
+      "id": "blo",
+      "name": "Kan",
+      "abbreviation": "BLO",
+      "levels": [
+        { "valueText": "Negatif", "r": 238, "g": 198, "b": 78, "isTypical": true },
+        { "valueText": "Eser", "r": 196, "g": 170, "b": 70, "isTypical": false },
+        { "valueText": "25", "r": 110, "g": 158, "b": 70, "isTypical": false },
+        { "valueText": "80", "r": 48, "g": 124, "b": 78, "isTypical": false },
+        { "valueText": "200", "r": 22, "g": 86, "b": 62, "isTypical": false }
+      ]
+    },
+    {
+      "id": "ph",
+      "name": "pH",
+      "abbreviation": "pH",
+      "levels": [
+        { "valueText": "5.0", "r": 232, "g": 136, "b": 48, "isTypical": true },
+        { "valueText": "6.0", "r": 236, "g": 180, "b": 56, "isTypical": true },
+        { "valueText": "6.5", "r": 214, "g": 190, "b": 64, "isTypical": true },
+        { "valueText": "7.0", "r": 170, "g": 186, "b": 78, "isTypical": true },
+        { "valueText": "7.5", "r": 110, "g": 176, "b": 96, "isTypical": true },
+        { "valueText": "8.0", "r": 64, "g": 158, "b": 118, "isTypical": true },
+        { "valueText": "8.5", "r": 46, "g": 118, "b": 138, "isTypical": false },
+        { "valueText": "9.0", "r": 36, "g": 82, "b": 138, "isTypical": false }
+      ]
+    },
+    {
+      "id": "pro",
+      "name": "Protein",
+      "abbreviation": "PRO",
+      "levels": [
+        { "valueText": "Negatif", "r": 236, "g": 214, "b": 96, "isTypical": true },
+        { "valueText": "Eser", "r": 206, "g": 206, "b": 90, "isTypical": true },
+        { "valueText": "30 mg/dL", "r": 150, "g": 186, "b": 96, "isTypical": false },
+        { "valueText": "100 mg/dL", "r": 72, "g": 156, "b": 112, "isTypical": false },
+        { "valueText": "300 mg/dL", "r": 36, "g": 124, "b": 124, "isTypical": false },
+        { "valueText": "2000 mg/dL", "r": 20, "g": 86, "b": 108, "isTypical": false }
+      ]
+    },
+    {
+      "id": "uro",
+      "name": "Ürobilinojen",
+      "abbreviation": "URO",
+      "levels": [
+        { "valueText": "0.2 mg/dL", "r": 246, "g": 198, "b": 156, "isTypical": true },
+        { "valueText": "1 mg/dL", "r": 232, "g": 146, "b": 136, "isTypical": false },
+        { "valueText": "2 mg/dL", "r": 206, "g": 100, "b": 120, "isTypical": false },
+        { "valueText": "4 mg/dL", "r": 168, "g": 64, "b": 104, "isTypical": false },
+        { "valueText": "8 mg/dL", "r": 124, "g": 42, "b": 86, "isTypical": false }
+      ]
+    },
+    {
+      "id": "nit",
+      "name": "Nitrit",
+      "abbreviation": "NIT",
+      "levels": [
+        { "valueText": "Negatif", "r": 246, "g": 234, "b": 206, "isTypical": true },
+        { "valueText": "Pozitif", "r": 236, "g": 150, "b": 164, "isTypical": false },
+        { "valueText": "Güçlü pozitif", "r": 196, "g": 72, "b": 112, "isTypical": false }
+      ]
+    },
+    {
+      "id": "leu",
+      "name": "Lökosit",
+      "abbreviation": "LEU",
+      "levels": [
+        { "valueText": "Negatif", "r": 240, "g": 226, "b": 186, "isTypical": true },
+        { "valueText": "15", "r": 236, "g": 196, "b": 176, "isTypical": false },
+        { "valueText": "70", "r": 214, "g": 140, "b": 156, "isTypical": false },
+        { "valueText": "125", "r": 176, "g": 96, "b": 140, "isTypical": false },
+        { "valueText": "500", "r": 132, "g": 64, "b": 120, "isTypical": false }
+      ]
+    }
+  ]
+}
